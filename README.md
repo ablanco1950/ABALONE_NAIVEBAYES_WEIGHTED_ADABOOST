@@ -1,6 +1,6 @@
 ABALONE_NAIVEBAYES_WEIGHTED_ADABOOST: Two procedures are attached that use the Abalone file as test and training (https://archive.ics.uci.edu/ml/datasets/abalone). Both start from a treatment of the training part calculating the frequencies corresponding to each value of each field and applying a Naive Bayes probability calculation. In a second step, one of the procedures takes advantage of the previous result to apply weights based on each field to the wrong or true records. The other procedure uses Adaboost, using the adaboost routine published at https://github.com/jaimeps/adaboost-implementation (Jaime Pastor).
 
-A hit rate of around 58% is obtained, that is, in the low range of the existing procedures to treat this multiclass file, which are detailed in the documentation to download from https://archive.ics.uci.edu/ml/ datasets / abalone
+A hit rate of around 58% is obtained, that is, in the low range of the existing procedures to treat this multiclass file, which are detailed in the documentation to download from https://archive.ics.uci.edu/ml/datasets/abalone
 
 
 Resources: Spyder 4
